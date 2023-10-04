@@ -1,0 +1,74 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.biography {
+    background-color: #000;
+    color: #fff;
+}
+
+.cricket-career {
+    background-color: #fff;
+    color: #333;
+}
+.personal-life {
+    background-color: #000;
+    color: #fff;
+}
+
+.dhoni-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: right;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
